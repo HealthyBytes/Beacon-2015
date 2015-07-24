@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#cssmenu ul{
+	margin: 0;
+}
+#cssmenu ul ul{
+	margin: 0;
+	padding: 0;
+	display: none;	
+	color: #333;	
+	background: #EEE;
+	text-align: center;
+	
+}
+#cssmenu ul ul>li{
+	padding: 10px 15px; margin: 0;
+	border: 1px solid #888;
+	border-top: none;	
+}
+#cssmenu ul ul li:first-child{
+	border-top: 1px solid #888;
+}
+
+.bars{
+	height: 100%;
+}
+.sider_dropright li:first-child{	border-top-right-radius: 3px; }
+.sider_dropright li:last-child{	border-bottom-right-radius: 3px;}
+	
+
+.sider_dropright li:hover{
+	cursor: pointer;
+	background: #CCC;
+}
+.accepted a{
+	background: #9aee8d;
+}
+.ordered a{
+	background: #dbfdf4;
+}
+
+.unordered a{
+	background: #f9efb9;
+}
+.debug{
+	position: absolute;
+	z-index: 200;
+	height: 500px;
+	width: 300px;
+	overflow: auto; 
+}
+.active_patient{
+	border:3px solid red;
+	box-shadow: 2px 2px 2px #ED5565;	
+}
