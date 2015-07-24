@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#98FF98"
+    android:padding="50dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_doctor_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_title_queue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_doctor_name"
+        android:text="Pozdravljeni, v čakalni vrsti se nahajate na mestu št.:"
+        android:textSize="16dp"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/tv_queue"
+        android:text="/"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/bright_foreground_inverse_material_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title_queue"
+        android:background="@android:color/holo_green_light"/>
+
+    <TextView
+        android:id="@+id/tv_title_status"
+        android:layout_below="@+id/tv_queue"
+        android:text="Vaš status: "
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_below="@+id/tv_queue"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"
+        android:text="/"
+        android:layout_toRightOf="@+id/tv_title_status"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_title_time"
+        android:layout_below="@+id/tv_title_status"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="16dp"
+        android:text="Približen čas čakanja:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_below="@+id/tv_title_status"
+        android:layout_toRightOf="@+id/tv_title_time"
+        android:layout_alignParentRight="true"
+        android:text="/"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="16sp"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

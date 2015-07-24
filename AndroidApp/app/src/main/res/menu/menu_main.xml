@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!--<item
+        android:id="@+id/action_login_frag"
+        android:title="Login Frag"
+        android:orderInCategory="0" />
+    <item
+        android:id="@+id/action_queue_frag"
+        android:title="Queue Frag"
+        android:orderInCategory="1" />
+    <item
+        android:id="@+id/action_bacon_frag"
+        android:title="Beacon Frag"
+        android:orderInCategory="2" />-->
+    <item
+        android:id="@+id/action_clean_all"
+        android:title="Čistilka =)"
+        android:orderInCategory="1" />
+</menu>

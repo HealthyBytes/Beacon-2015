@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#98FF98"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ime"
+        android:id="@+id/tv_firstname"
+        android:gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_firstname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_firstname"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priimek"
+        android:id="@+id/tv_surname"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_firstname"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:id="@+id/et_surname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_surname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spol"
+        android:id="@+id/tv_gender"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/et_surname" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_gender"
+        android:layout_below="@+id/tv_gender"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:entries="@array/gender" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:layout_marginTop="12dp"
+        android:text="Potrdi registracijo"
+        android:backgroundTint="#57E964"
+        android:background="#57E964"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner_gender" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hb_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@+id/btn_register"/>
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datum rojstva"
+        android:id="@+id/tv_birth_date"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_last_name"
+        android:layout_marginTop="12dp" />
+
+    <DatePicker
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_picker"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/tv_birth_date"
+        android:layout_centerHorizontal="true" />-->
+
+
+</RelativeLayout>

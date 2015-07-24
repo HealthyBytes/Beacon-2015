@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HealthyBytes</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="gender">
+        <item>IZBERITE</item>
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+</resources>
